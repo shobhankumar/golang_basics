@@ -3,7 +3,7 @@
 // anonymous function
 // Waitgroups
 // Mutexs
-// mutexes are need as below example has a slice thats modified by various go routines (i.e threads)
+// mutexes are needed as below example has a slice thats modified by various go routines (i.e threads)
 // since slice is being appened by multiple goroutines, need to safegaurd slice using a mutex
 // when we have goroutines, waitgroups also needed as main thread can exit before even
 // goroutines start executing
