@@ -8,6 +8,9 @@
 // when we have goroutines, waitgroups also needed as main thread can exit before even
 // goroutines start executing
 
+// compile and excute like below, which will show any rance conditions thats exists
+// go run -race methods.go
+
 package main
 
 import (
